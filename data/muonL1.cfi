@@ -1,6 +1,5 @@
 module muonL1 = HLTHighLevel {
-    InputTag TriggerResultsTag = TriggerResults
-    bool byName = true
+    InputTag TriggerResultsTag = TriggerResults::HLT
     bool andOr= true 
     vstring HLTPaths = { "CandHLT1MuonLevel1" }
 }
