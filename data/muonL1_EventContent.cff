@@ -1,14 +1,7 @@
 include "Configuration/EventContent/data/EventContent.cff"
 
 block muonL1EventContent ={
-   untracked vstring outputCommands = {
-     "keep *_hltL2Muons_*_*" 
-   , "keep *_hltL2MuonCandidates_*_*"
-   , "keep *_hltL2MuonIsolations_*_*"
-   , "keep *_hltL3Muons_*_*"
-   , "keep *_hltL3MuonCandidates_*_*"
-   , "keep *_hltL3MuonIsolations_*_*"   
- }
+   untracked vstring outputCommands = { }
 }
 
 block muonL1EventSelection = {
