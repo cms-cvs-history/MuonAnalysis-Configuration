@@ -4,7 +4,7 @@ module muonL1OutputModuleRECOSIM = PoolOutputModule {
   untracked string fileName = "muonL1-RECOSIM.root"
   using RECOSIMmuonL1EventContent
   using muonL1EventSelection	
-  untracked PSet datasets ={
+  untracked PSet dataset ={
     untracked string dataTier = "USER"
     untracked string filterName = "muonL1RECOSIM"
   }
@@ -14,7 +14,7 @@ module muonL1OutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "muonL1-AODSIM.root"
   using AODSIMmuonL1EventContent
   using muonL1EventSelection	
-  untracked PSet datasets ={
+  untracked PSet dataset ={
     untracked string dataTier = "USER"
     untracked string filterName = "muonL1AODSIM"
   }
