@@ -1,6 +1,0 @@
-include "MuonAnalysis/Configuration/data/muonL1OutputModule.cfi"
-
-sequence MuonAnalysisOutput = {
-  muonL1OutputModuleAODSIM 
- &muonL1OutputModuleRECOSIM 
-}
