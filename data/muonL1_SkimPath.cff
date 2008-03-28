@@ -1,4 +1,0 @@
-# this is just Juan's sequence to select l1 muons
-include "MuonAnalysis/Configuration/data/muonL1.cfi"
-path muonL1Path = { muonL1 }
-  
