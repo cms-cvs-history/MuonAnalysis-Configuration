@@ -1,2 +1,0 @@
-include "MuonAnalysis/Configuration/data/muonL1OutputModuleAODSIM.cfi"
-include "MuonAnalysis/Configuration/data/muonL1OutputModuleRECOSIM.cfi"
